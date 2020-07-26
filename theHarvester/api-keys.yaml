@@ -1,0 +1,24 @@
+apikeys:
+  bing:
+    key: 
+
+  github:
+    key: 332e0ba8f163693ad4767527e9bb8bf8b5b57cf7
+
+  hunter:
+    key: 
+
+  intelx:
+    key: 9df61df0-84f7-4dc7-b34c-8ccfb8646ace
+
+  pentestTools:
+    key: 
+
+  securityTrails:
+    key: 4uDINdhK4DX1y7GInq5piVvwEPkJKQgl
+
+  shodan:
+    key: 4mxXq6xyda4SX7nj62ANjdE3O01orm40
+
+  spyse:
+    key: 10b76255-c78f-42d4-ae32-c4834955d9a9
