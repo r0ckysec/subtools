@@ -1,0 +1,81 @@
+resolvers:
+    - 1.1.1.1
+    - 1.0.0.1
+    - 8.8.8.8
+    - 8.8.4.4
+    - 9.9.9.9
+    - 9.9.9.10
+    - 77.88.8.8
+    - 77.88.8.1
+    - 208.67.222.222
+    - 208.67.220.220
+    - 119.29.29.29
+    - 182.254.116.116
+    - 114.114.114.114
+    - 114.114.115.115
+    - 180.76.76.76
+    - 223.5.5.5
+    - 223.6.6.6
+    - 1.2.4.8
+    - 210.2.4.8
+    - 101.226.4.6
+    - 218.30.118.6
+    - 117.50.11.11
+    - 117.50.22.22
+    - 40.73.101.101
+    - 101.6.6.6
+sources:
+    - alienvault
+    - archiveis
+    - binaryedge
+    - bufferover
+    - censys
+    - certspotter
+    - certspotterold
+    - commoncrawl
+    - crtsh
+    - dnsdumpster
+    - dnsdb
+    - entrust
+    - github
+    - hackertarget
+    - ipv4info
+    - intelx
+    - passivetotal
+    - rapiddns
+    - securitytrails
+    - shodan
+    - sitedossier
+    - spyse
+    - sublist3r
+    - threatcrowd
+    - threatminer
+    - urlscan
+    - virustotal
+    - waybackarchive
+    - zoomeye
+binaryedge: 
+    - 4385ae4a-c6cb-4a0d-a1a4-4675839e4a13
+censys: 
+    - cb16657f-5536-492c-8ada-646a9761ecf8:7ABCiGECObCrQsiucWzctVQRfpfJZc8e
+certspotter: 
+    - 30392_HlzqHaUGP2JYZ9lmz6Qt
+chaos: []
+dnsdb: []
+github: 
+    - 332e0ba8f163693ad4767527e9bb8bf8b5b57cf7
+intelx: []
+passivetotal: 
+    - r0cky6861636b6572@gmail.com:d2fb7a4698894b8a1b878d0a6055eb947edcd885b1b03bf96f4b1724c1a46331
+securitytrails: 
+    - 4uDINdhK4DX1y7GInq5piVvwEPkJKQgl
+shodan: 
+    - 4mxXq6xyda4SX7nj62ANjdE3O01orm40
+spyse: 
+    - 10b76255-c78f-42d4-ae32-c4834955d9a9
+urlscan: 
+    - 831de20d-0349-4ba8-9d60-8fb74cf22be1
+virustotal: 
+    - 3c656fc223639ed85463ccd089d646120a5a1c59a6e7b6cf4e643f2cba6416e1
+zoomeye: 
+    - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6IjI1MTk1OTEzQHFxLmNvbSIsImlhdCI6MTU5NTc1NzIxMCwibmJmIjoxNTk1NzU3MjEwLCJleHAiOjE1OTU4MDA0MTB9.YJCn8MBIiB0yo3zyVxjWchAwv-0apDpqPxR6smqFkks
