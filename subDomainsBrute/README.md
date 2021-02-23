@@ -1,4 +1,4 @@
-# subDomainsBrute 1.3 #
+# subDomainsBrute 1.4 #
 
 A fast sub domain brute tool for pentesters.
 
@@ -34,6 +34,7 @@ Python2 users
 	                        to brute
 	  -i, --ignore-intranet
 	                        Ignore domains pointed to private IPs
+	  -w, --wildcard        Force scan after wildcard test fail
 	  -t THREADS, --threads=THREADS
 	                        Num of scan threads, 256 by default
 	  -p PROCESS, --process=PROCESS
@@ -43,6 +44,10 @@ Python2 users
 
 ## Change Log 
 
+* [2020-10-29]
+  * 增加支持强制扫描泛解析的域名，需要加 `-w` 参数
+* [2020-10-26]
+  * 修复Windows下出现 `too many file descriptors`
 * [2020-05-05]
   * 增加了Python3.5+支持。Python3执行效率更高
 * [2019-05-19] 

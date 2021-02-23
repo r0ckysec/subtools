@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 """
-    subDomainsBrute 1.3
+    subDomainsBrute 1.4
     A simple and fast sub domains brute tool for pentesters
     my[at]lijiejie.com (http://www.lijiejie.com)
 """
@@ -10,7 +10,6 @@ import sys
 import multiprocessing
 import warnings
 warnings.simplefilter("ignore", category=UserWarning)
-
 
 import time
 import signal
@@ -37,7 +36,7 @@ def run_process(*params):
 
 if __name__ == '__main__':
     options, args = parse_args()
-    print('''SubDomainsBrute v1.3  https://github.com/lijiejie/subDomainsBrute''')
+    print('''SubDomainsBrute v1.4  https://github.com/lijiejie/subDomainsBrute''')
     # make tmp dirs
     tmp_dir = 'tmp/%s_%s' % (args[0], int(time.time()))
     if not os.path.exists(tmp_dir):
@@ -52,7 +51,10 @@ if __name__ == '__main__':
 
     try:
         print('[+] Run wildcard test')
-        domain = wildcard_test(args[0], dns_servers)
+        if not options.w:
+            domain = wildcard_test(args[0], dns_servers)
+        else:
+            domain = args[0]
         options.file = get_sub_file_path(options)
         print('[+] Start %s scan process' % options.process)
         print('[+] Please wait while scanning ... \n')
